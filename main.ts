@@ -4,7 +4,7 @@ info.onCountdownEnd(function () {
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairEast, function (sprite, location) {
     game.over(true)
 })
-info.startCountdown(30)
+info.startCountdown(20)
 let mySprite = sprites.create(img`
     . . . . . . f f f f . . . . . . 
     . . . . f f f 2 2 f f f . . . . 
